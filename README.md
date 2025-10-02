@@ -8,12 +8,14 @@ Each day features a **fun, gamified challenge**, using flip cards, interactive b
 
 ## 📅 Challenges Overview
 
-### Week 1: HTML + CSS basics
-1. **DevTober Calendar + Flip Card**  
-   (1 day = 1 card with 1 challenge for the month of October)
-2. **Choose your Pokémon Starter**  
+### Week 1: HTML + CSS basics 
+1. **DevTober Calendar + Flip Card** ✅ 
+   (1 day = 1 card with 1 challenge for the month of October) 
+   https://github.com/leagrkc/projet-devtober/tree/main/Jour1-devtober
+2. **Choose your Pokémon Starter** ✅
    (3 Pokémon cards, hover/focus effects with CSS)
-3. **RPG Inventory Grid**  
+   https://github.com/leagrkc/projet-devtober/tree/main/jour2-devtober
+3. **RPG Inventory Grid** 
    (Display items with CSS grid, hover to select)
 4. **RPG Character Card**  
    (Name, class, HP, mana, styled in CSS)
