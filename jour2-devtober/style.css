@@ -1,0 +1,108 @@
+@charset "UTF-8";
+body {
+  font-family: "Press Start 2P", system-ui;
+  background: linear-gradient(179deg, rgba(242, 217, 217, 0.9) -10.86%, rgba(186, 131, 112, 0.9) 61.14%, rgba(7, 6, 51, 0.9) 131.78%);
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.title__content {
+  background-color: white;
+  width: 951px;
+  height: 80px;
+  border-radius: 79px;
+  border: 5px solid #626262;
+  display: flex; /* Active flexbox */
+  align-items: center; /* Centre verticalement */
+  justify-content: center; /* Centre horizontalement */
+  text-align: center;
+  line-height: 1.2; /* Centre le texte */
+}
+
+.personnages {
+  display: flex;
+  flex-direction: row;
+  gap: 108px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 160px;
+  padding-bottom: 250px;
+}
+
+.salameche__img, .carapuce__img, .bulbizarre__img {
+  width: 258px;
+  height: 258px;
+}
+
+.carte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag {
+  border: 2.513px solid #000;
+  border-radius: 22px;
+  display: flex;
+  width: 60px;
+  height: 20px;
+  padding: 10.681px 34.555px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.salameche__element {
+  background: #FFA64C;
+}
+
+.carapuce__element {
+  background: #7BC7F7;
+}
+
+.bulbizarre__element {
+  display: flex;
+  gap: 24px;
+}
+.bulbizarre__element--plante {
+  background: #90E99F;
+}
+.bulbizarre__element--poison {
+  background: #BE9CF2;
+}
+
+.carte {
+  position: relative;
+}
+
+.carte::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 321px;
+  height: 321px;
+  border-radius: 50%;
+  background: transparent;
+  z-index: -1; /* derrière l’image */
+  transition: background 0.3s;
+}
+
+/* Couleur différente par perso au hover */
+.salameche:hover::before {
+  background: #FDDEA5;
+}
+
+.carapuce:hover::before {
+  background: #D2FBFA;
+}
+
+.bulbizarre:hover::before {
+  background: #CDEAC4;
+}/*# sourceMappingURL=style.css.map */
