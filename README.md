@@ -15,8 +15,9 @@ Each day features a **fun, gamified challenge**, using flip cards, interactive b
 2. **Choose your Pokémon Starter** ✅
    (3 Pokémon cards, hover/focus effects with CSS)
    https://github.com/leagrkc/projet-devtober/tree/main/jour2-devtober
-3. **RPG Inventory Grid** 
+3. **RPG Inventory Grid** ✍🏻
    (Display items with CSS grid, hover to select)
+   https://www.figma.com/proto/ZP09Y6VFZydrqK4gZ3xCiG/DailY-UI---projet-fil-rouge?page-id=285%3A120&node-id=285-121&viewport=874%2C269%2C0.49&t=DkxIave5uiVoU1LS-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=285%3A121
 4. **RPG Character Card**  
    (Name, class, HP, mana, styled in CSS)
 5. **Magic Button Hover Animation**  
